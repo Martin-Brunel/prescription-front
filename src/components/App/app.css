@@ -1,0 +1,33 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.app-login-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    border-radius: 10px;
+    border: solid 1px #03738c;
+    gap: 8px
+}
+
+.app-main-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    border-radius: 10px;
+    border: solid 1px #03738c;
+    gap: 8px;
+    width: 500px;
+    max-width: calc(100% - 32px);
+}
+
+.app-main-box-title{
+    margin-bottom: 16px;
+}
